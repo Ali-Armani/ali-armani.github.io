@@ -1,6 +1,15 @@
-.profile-photo{
-	width:180px;
-	hwight:180px;
-	border-radius:50%;
-	object-fit:cover;
+/* Header Layout */
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+}
+/* The profile photo itself */
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Turns the square image into a circle */
+object-fit: cover;
+flex-shrink: 0;
 }
