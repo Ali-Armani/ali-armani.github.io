@@ -122,3 +122,22 @@ flex-shrink: 0;
 .linkedin-button:active {
         opacity: 0.65;
     }
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    color: #888;
+}
+
+footer a {
+    color: #888;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #333;
+}
