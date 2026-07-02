@@ -123,6 +123,29 @@ flex-shrink: 0;
         opacity: 0.65;
     }
 
+.twitter-button {
+    width: 125px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 1.1s, color 1.8s;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
+    }
+
+.twitter-button:hover {
+    background-color: white;
+    color: black;
+    }
+
+.twitter-button:active {
+    opacity: 0.65;
+    }
+
 footer {
     text-align: center;
     padding: 1.5rem;
