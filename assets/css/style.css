@@ -13,7 +13,7 @@ html, body {
 
 #hero {
     position: relative;
-    background-image: url("../hero/hero.jpg");
+    background-image: url("../hero/hero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
