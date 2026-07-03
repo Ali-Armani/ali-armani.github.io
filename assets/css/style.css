@@ -92,6 +92,7 @@ flex-shrink: 0;
         font-size: 18px;
         font-weight: bold;
         margin-right: 10px;
+        margin-left: 27px;
         cursor: pointer;
         transition: background-color 1.1s, color 1.8s;
         box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
