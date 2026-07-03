@@ -42,7 +42,7 @@ p {
         margin-left: 10px;
         margin-right: 10px;
         line-height: 19px;
-        width: 642px;
+        max-width: 642px;
     }
 
 /* Header Layout */
