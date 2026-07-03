@@ -34,7 +34,7 @@ h2 {
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 4px;
-    color: rgb(26, 35, 126);
+    color: rgb(19, 27, 110);
 }
 
 h3 {
@@ -44,6 +44,7 @@ h3 {
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 4px;
+    color: rgb(14, 25, 151);
 }
 
 h4 {
@@ -53,6 +54,7 @@ h4 {
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 4px;
+    color: rgb(43, 55, 193);
 }
 
 /* The profile photo itself */
