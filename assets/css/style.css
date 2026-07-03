@@ -1,4 +1,9 @@
 
+.hero-content,
+.hero-text {
+    display: none;
+}
+
 html, body {
     margin: 0;
     padding: 0;
