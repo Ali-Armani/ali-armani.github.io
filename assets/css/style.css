@@ -1,7 +1,9 @@
 
-body {
+html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 #hero {
@@ -10,57 +12,17 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    width: 100%;
-    height: 100vh;
-
+    
+    width: 100vw;
+    min-height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,.45);
-}
-
-.hero-content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
-
-.hero-text h2 {
-    margin: 0;
-    font-size: 60px;
-    color: white;
-}
-
-.hero-tagline {
-    width: auto;
-    max-width: 700px;
-    margin: 25px auto;
-    font-size: 22px;
-    line-height: 1.6;
-}
-
-.hero-btn {
-    display: inline-block;
-    padding: 15px 35px;
-    background: #1e90ff;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: .3s;
-}
-
-.hero-btn:hover {
-    background: #0066cc;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 p {
