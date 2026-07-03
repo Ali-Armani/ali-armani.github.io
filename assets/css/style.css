@@ -78,6 +78,9 @@ flex-shrink: 0;
         font-family: 'Times New Roman', Times, serif;
         font-size: 23px;
         font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        color: rgb(20, 80, 8);
     }
 
 .telegram-button {
