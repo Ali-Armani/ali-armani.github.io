@@ -119,6 +119,7 @@ flex-shrink: 0;
     }
 
 .telegram-button {
+        text-decoration: none;
         width: 110px;
         height: 40px;
         color: white;
@@ -143,6 +144,7 @@ flex-shrink: 0;
     }
 
 .whatsapp-button {
+        text-decoration: none;
         width: 125px;
         height: 40px;
         color: white;
@@ -166,6 +168,7 @@ flex-shrink: 0;
     }
 
 .email-button {
+        text-decoration: none;
         width: 90px;
         height: 40px;
         color: white;
@@ -189,6 +192,7 @@ flex-shrink: 0;
     }
 
 .linkedin-button {
+        text-decoration: none;
         background-color: rgb(13, 13, 126);
         color: white;
         height: 40px;
@@ -211,6 +215,7 @@ flex-shrink: 0;
     }
 
 .twitter-button {
+    text-decoration: none;
     width: 125px;
     height: 40px;
     color: white;
