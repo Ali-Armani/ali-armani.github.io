@@ -3,6 +3,17 @@ html {
     scroll-behavior: smooth;
 }
 
+.telegram-button,
+.whatsapp-button,
+.email-button,
+.linkedin-button,
+.twitter-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
 .hero-content,
 .hero-text {
     display: none;
