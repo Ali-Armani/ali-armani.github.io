@@ -57,11 +57,11 @@ p {
     }
 
 /* Header Layout */
+
 header {
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1.5rem;
+    flex-direction: column;
+    padding: 0;
 }
 
 h1 {
