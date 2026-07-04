@@ -112,6 +112,7 @@ h4 {
 
 /* The profile photo itself */
 .profile-photo {
+    margin-top: 24px;
     width: 135px;
     height: 135px;
     border-radius: 50%; /* Turns the square image into a circle */
