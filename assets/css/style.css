@@ -1,4 +1,74 @@
 
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Left: Name and Title Stacked Vertically */
+.nav-brand {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.nav-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(19, 27, 110);
+}
+
+.nav-title {
+    font-size: 0.75rem;
+    color: #666;
+    font-weight: normal;
+}
+
+/* Center: Navigation links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(19, 27, 110);
+}
+
+/* Right: Theme toggle button */
+.theme-toggle {
+    background: none;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    border-color: rgb(19, 27, 110);
+    background-color: #f0f0f0;
+
+
 html {
     scroll-behavior: smooth;
 }
