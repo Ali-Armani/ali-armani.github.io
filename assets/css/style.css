@@ -83,6 +83,11 @@ header {
     padding: 0.5 rem;
 }
 
+.header-info .tagline {
+    font-size: 13px;
+    margin: 0;
+}
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
