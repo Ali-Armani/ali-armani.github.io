@@ -71,6 +71,11 @@ header {
     padding: 0;
 }
 
+.header-info h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
 .header-info {
     display: flex;
     align-items: center;
