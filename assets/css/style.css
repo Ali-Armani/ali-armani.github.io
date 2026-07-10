@@ -119,6 +119,7 @@ h4 {
 
 /* The profile photo itself */
 .profile-photo {
+    display: none;
     margin-top: 24px;
     width: 135px;
     height: 135px;
