@@ -12,8 +12,8 @@
     flex-direction: column;
     background-color: rgb(160, 239, 150);
     border: none;
-    margin-left: 1px;
-    margin-right: 5px;
+    margin-left: 0;
+    margin-right: 0;
     width: 200px;
     justify-content: center;
     align-items: center;
@@ -44,8 +44,8 @@
     display: flex;
     background-color: rgb(160, 239, 150);
     flex: 1;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0;
+    margin-right: 0;
     border: none;
     align-items: center;
     justify-content: center;
@@ -112,8 +112,8 @@
     align-items: center;
     justify-content: center;
     border: none;
-    margin-left: 10px;
-    margin-right: 1px;
+    margin-left: 0;
+    margin-right: 0;
     background-color: rgb(160, 239, 150);
 }
 
