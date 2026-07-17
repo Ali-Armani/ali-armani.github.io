@@ -12,7 +12,6 @@
     flex-direction: column;
     background-color: rgb(160, 239, 150);
     border: none;
-    border-radius: 25px;
     margin-left: 1px;
     margin-right: 5px;
     width: 200px;
@@ -48,7 +47,6 @@
     margin-left: 10px;
     margin-right: 10px;
     border: none;
-    border-radius: 25px;
     align-items: center;
     justify-content: center;
 }
@@ -114,7 +112,6 @@
     align-items: center;
     justify-content: center;
     border: none;
-    border-radius: 25px;
     margin-left: 10px;
     margin-right: 1px;
     background-color: rgb(160, 239, 150);
