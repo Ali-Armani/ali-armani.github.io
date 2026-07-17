@@ -292,6 +292,50 @@
     background-color: lightpink;
 }
 
+.soft-skills-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: lightpink;
+}
+
+.soft-skills-title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: lightblue;
+}
+
+.soft-skills-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 18px;
+}
+
+.soft-skills-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: lightpink;
+}
+
+.soft-skills-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
 html {
     scroll-behavior: smooth;
 }
