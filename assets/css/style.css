@@ -163,6 +163,13 @@
     opacity: 0.7;
 }
 
+.about-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
 html {
     scroll-behavior: smooth;
 }
