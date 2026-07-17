@@ -260,6 +260,24 @@
     background-color: lightblue;
 }
 
+.languages-row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 180px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: lightblue;
+}
+
+.languages-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 180px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: lightpink;
+}
+
 html {
     scroll-behavior: smooth;
 }
