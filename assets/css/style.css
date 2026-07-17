@@ -251,6 +251,15 @@
     background-color: lightpink;
 }
 
+.currently-learning-row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 290px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: lightblue;
+}
+
 .languages-title {
     display: flex;
     flex: 1;
@@ -263,15 +272,6 @@
     margin-left: 400px;
     margin-right: 400px;
     background-color: lightpink;
-}
-
-.currently-learning-row2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 290px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: lightblue;
 }
 
 .languages-row1 {
