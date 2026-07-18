@@ -377,6 +377,34 @@
     background-color: lightblue;
 }
 
+.cta-title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 950px;
+    padding-left: 0;
+    background-color: lightpink;
+}
+
+.cta-p {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px;
+    background-color: lightblue;
+}
+
 html {
     scroll-behavior: smooth;
 }
