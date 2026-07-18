@@ -212,10 +212,11 @@
 }
 
 .currently-learning-row,
-.completed-certif-row {
+.completed-certif-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 290px;
+    list-style-position: inside;
+    padding: 0;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 25px;
