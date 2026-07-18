@@ -210,6 +210,7 @@
     margin-right: 750px;
 }
 
+.currently-learning-row,
 .completed-certif-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -229,14 +230,6 @@
     margin-top: 20px;
     margin-left: 100px;
     margin-right: 800px;
-}
-
-.currently-learning-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 290px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 .completed-certif-unit,
