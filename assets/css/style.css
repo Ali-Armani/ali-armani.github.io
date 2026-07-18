@@ -516,32 +516,11 @@ html {
     box-sizing: border-box;
 }
 
-.hero-content,
-.hero-text {
-    display: none;
-}
-
 html, body {
     margin: 0;
     padding: 0;
     width: 100%;
     overflow-x: hidden;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(assets/hero/hero.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 50px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    box-sizing: border-box;
-    padding: 0;
 }
 
 p {
