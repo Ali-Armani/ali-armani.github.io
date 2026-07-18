@@ -350,7 +350,6 @@
     margin-left: 0;
     margin-right: 700px;
     padding-left: 0;
-    background-color: lightblue;
 }
 
 .values-p1 {
@@ -363,7 +362,6 @@
     font-size: 20px;
     font-weight: 500;
     padding: 25px;
-    background-color: lightpink;
 }
 
 .values-p2 {
@@ -376,7 +374,6 @@
     font-size: 20px;
     font-weight: 500;
     padding: 25px;
-    background-color: lightblue;
 }
 
 .cta-title {
@@ -391,7 +388,6 @@
     margin-left: 0;
     margin-right: 950px;
     padding-left: 0;
-    background-color: lightpink;
 }
 
 .cta-p {
@@ -404,7 +400,6 @@
     font-size: 20px;
     font-weight: 500;
     padding: 25px;
-    background-color: lightblue;
 }
 
 .resume-title {
@@ -419,7 +414,6 @@
     margin-left: 0;
     margin-right: 1000px;
     padding-left: 0;
-    background-color: lightpink;
 }
 
 .resume-p {
@@ -432,7 +426,6 @@
     font-size: 20px;
     font-weight: 500;
     padding: 25px;
-    background-color: lightblue;
 }
 
 .resume-button {
@@ -446,7 +439,6 @@
     font-weight: 500;
     padding-top: 0;
     padding-left: 25px;
-    background-color: lightpink;
 }
 
 .projects-main-title {
@@ -461,7 +453,6 @@
     margin-left: 0;
     margin-right: 1000px;
     padding-left: 0;
-    background-color: lightpink;
 }
 
 .projects-luxury-title {
@@ -476,7 +467,6 @@
     margin-left: 0;
     margin-right: 750px;
     padding-left: 0;
-    background-color: lightpink;
 }
 
 .projects-luxury-p {
@@ -489,7 +479,6 @@
     font-size: 20px;
     font-weight: 500;
     padding: 25px;
-    background-color: lightblue;
 }
 
 .projects-luxury-link {
@@ -503,7 +492,6 @@
     font-weight: 500;
     padding-top: 0;
     padding-left: 25px;
-    background-color: lightpink;
 }
 
 
@@ -519,7 +507,6 @@
     margin-left: 0;
     margin-right: 950px;
     padding-left: 0;
-    background-color: lightpink;
 }
 
 .contact-buttons {
@@ -530,7 +517,6 @@
     height: 50px;
     padding-top: 0;
     padding-left: 25px;
-    background-color: lightpink;
 }
 
 html {
