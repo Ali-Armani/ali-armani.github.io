@@ -238,6 +238,10 @@
     grid-template-rows: 1fr 1fr;
 }
 
+.certif-logo {
+    width: 300px;
+}
+
 .languages-title {
     display: flex;
     flex: 1;
