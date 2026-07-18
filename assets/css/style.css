@@ -693,11 +693,11 @@ h4 {
         width: 125px;
         font-family: 'Times New Roman', Times, serif;
         font-size: 18px;
-        margin-right: 0;
         margin-left: 10px;
         border-radius: 20px;
         font-weight: bold;
         transition: background-color 0.18s, color 0.18s;
+        cursor: pointer;
         margin-right: 10px;
     }
 
