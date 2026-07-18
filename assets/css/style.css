@@ -363,21 +363,18 @@ html, body {
     overflow-x: hidden;
 }
 
-#hero {
-    position: relative;
-    background-image: url("../hero/hero.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-    width: 100vw;
-    min-height: 100vh;
-    margin-top: 70px;
-    margin-bottom: 0;
-    
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(assets/hero/hero.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     box-sizing: border-box;
     padding: 0;
 }
