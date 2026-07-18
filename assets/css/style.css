@@ -280,13 +280,6 @@
     margin-right: 300px;
 }
 
-.soft-skills-div {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
 .soft-skills-title {
     display: flex;
     flex: 1;
@@ -300,25 +293,20 @@
     margin-right: 850px;
 }
 
-.soft-skills-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 18px;
-}
-
-.soft-skills-row {
+.soft-skills-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+    list-style-position: inside;
+    padding: 0;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .soft-skills-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
     font-weight: 500;
+    padding: 10px 0;
 }
 
 .values-title {
