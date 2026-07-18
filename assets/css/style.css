@@ -336,6 +336,47 @@
     font-weight: 500;
 }
 
+.values-title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 700px;
+    padding-left: 0;
+    background-color: lightblue;
+}
+
+.values-p1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px;
+    background-color: lightpink;
+}
+
+.values-p2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 400px;
+    margin-left: 400px;
+    height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px;
+    background-color: lightblue;
+}
+
 html {
     scroll-behavior: smooth;
 }
