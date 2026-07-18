@@ -249,6 +249,13 @@
     font-size: 21px;
 }
 
+.click-here,
+.see-credential {
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 .languages-title {
     display: flex;
     flex: 1;
