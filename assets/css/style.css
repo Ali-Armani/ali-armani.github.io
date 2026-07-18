@@ -262,15 +262,7 @@
     margin-right: 850px;
 }
 
-.languages-row1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 180px;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-.languages-row2 {
+.languages-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 180px;
