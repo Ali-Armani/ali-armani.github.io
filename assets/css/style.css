@@ -196,7 +196,6 @@
     margin-top: 60px;
     margin-left: 0;
     margin-right: 850px;
-    background-color: lightblue;
 }
 
 .completed-certif-title {
@@ -209,7 +208,6 @@
     font-weight: 500;
     margin-left: 100px;
     margin-right: 750px;
-    background-color: lightpink;
 }
 
 .completed-certif-row1 {
@@ -218,7 +216,6 @@
     height: 290px;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: lightblue;
 }
 
 .completed-certif-row2 {
@@ -227,7 +224,6 @@
     height: 290px;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: lightpink;
 }
 
 .currently-learning-title {
@@ -241,7 +237,6 @@
     margin-top: 20px;
     margin-left: 100px;
     margin-right: 800px;
-    background-color: lightblue;
 }
 
 .currently-learning-row1 {
@@ -250,7 +245,6 @@
     height: 290px;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: lightpink;
 }
 
 .currently-learning-row2 {
@@ -259,7 +253,6 @@
     height: 290px;
     margin-left: 200px;
     margin-right: 200px;
-    background-color: lightblue;
 }
 
 .languages-title {
@@ -273,7 +266,6 @@
     margin-top: 60px;
     margin-left: 100px;
     margin-right: 850px;
-    background-color: lightpink;
 }
 
 .languages-row1 {
@@ -282,7 +274,6 @@
     height: 180px;
     margin-left: 300px;
     margin-right: 300px;
-    background-color: lightblue;
 }
 
 .languages-row2 {
@@ -291,7 +282,6 @@
     height: 180px;
     margin-left: 300px;
     margin-right: 300px;
-    background-color: lightpink;
 }
 
 .soft-skills-div {
@@ -299,7 +289,6 @@
     grid-template-columns: 1fr;
     margin-left: 300px;
     margin-right: 300px;
-    background-color: lightpink;
 }
 
 .soft-skills-title {
@@ -313,7 +302,6 @@
     margin-top: 60px;
     margin-left: 100px;
     margin-right: 850px;
-    background-color: lightblue;
 }
 
 .soft-skills-p {
@@ -329,7 +317,6 @@
     justify-content: center;
     align-items: center;
     height: 100px;
-    background-color: lightpink;
 }
 
 .soft-skills-text {
