@@ -211,8 +211,7 @@
     margin-top: 55px;
 }
 
-.currently-learning-row,
-.completed-certif-list {
+.currently-learning-row{
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style-position: inside;
@@ -220,6 +219,16 @@
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 25px;
+}
+
+.completed-certif-unit {
+    list-style-position: inside;
+}
+
+.completed-certif-inner,
+.currently-learning-unit {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 .currently-learning-title {
