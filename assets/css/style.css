@@ -705,3 +705,30 @@ footer a {
 footer a:hover {
     color: rgb(62, 61, 61);
 }
+
+
+
+/* ========== Resonsive ========== */
+
+@media (max-width: 768px) {
+
+.contact-buttons {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+}
+
+.telegram-button,
+.whatsapp-button,
+.email-button,
+.linkedin-button,
+.twitter-button {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+}
+
+
+@media (max-width: 480px) {
+
+}
