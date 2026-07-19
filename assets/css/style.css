@@ -211,6 +211,7 @@
     margin-top: 55px;
 }
 
+.completed-certif-row,
 .currently-learning-row{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -221,11 +222,7 @@
     margin-top: 25px;
 }
 
-.completed-certif-unit {
-    list-style-position: inside;
-}
-
-.completed-certif-inner,
+.completed-certif-unit 
 .currently-learning-unit {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -242,12 +239,6 @@
     margin-top: 20px;
     margin-left: 100px;
     margin-right: 800px;
-}
-
-.completed-certif-unit,
-.currently-learning-unit {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
 }
 
 .certif-logo {
