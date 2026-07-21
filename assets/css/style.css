@@ -225,7 +225,7 @@
     margin-top: 25px;
 }
 
-.completed-certif-unit 
+.completed-certif-unit,
 .currently-learning-unit {
     display: grid;
     grid-template-rows: 1fr 1fr;
