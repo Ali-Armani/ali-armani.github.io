@@ -721,20 +721,10 @@ footer a:hover {
 .soft-skills-list {
     grid-template-columns: 1fr;
 }
-
-.completed-certif-row,
-.currently-learning-row {
-    grid-template-columns: repeat(2, 1fr);
-}
     
 }
 
 
 @media (max-width: 480px) {
-
-.completed-certif-row,
-.currently-learning-row {
-    grid-template-columns: 1fr;
-}
     
 }
