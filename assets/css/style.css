@@ -173,6 +173,10 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .about-div {
