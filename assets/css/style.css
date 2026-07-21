@@ -726,7 +726,7 @@ footer a:hover {
 
 .comleted-certif-row,
 .currently-learning-row {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
 }
     
 }
@@ -734,4 +734,9 @@ footer a:hover {
 
 @media (max-width: 480px) {
 
+.comleted-certif-row,
+.currently-learning-row {
+    grid-template-columns: 1fr;
+}
+    
 }
