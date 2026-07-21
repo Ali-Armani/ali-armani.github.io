@@ -163,6 +163,18 @@
     opacity: 0.7;
 }
 
+#hero {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.hero-photo {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
 
 .about-div {
     display: grid;
