@@ -562,7 +562,7 @@ h4 {
         font-size: 18px;
         font-weight: bold;
         margin-right: 0;
-        margin-left: 5px;
+        margin-left: 0.3125rem;
         cursor: pointer;
         transition: background-color 0.18s, color 0.18s;
         box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
@@ -587,7 +587,7 @@ h4 {
         font-size: 18px;
         font-weight: bold;
         margin-right: 0;
-        margin-left: 10px;
+        margin-left: 0.625rem;
         cursor: pointer;
         transition: background-color 0.18s, color 0.18s;
         box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
@@ -612,7 +612,7 @@ h4 {
         font-size: 18px;
         font-weight: bold;
         margin-right: 0;
-        margin-left: 30px;
+        margin-left: 1.875rem;
         cursor: pointer;
         transition: background-color 0.18s, color 0.18s;
         box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
@@ -635,7 +635,7 @@ h4 {
         width: 125px;
         font-family: 'Times New Roman', Times, serif;
         font-size: 18px;
-        margin-left: 10px;
+        margin-left: 0.625rem;
         border-radius: 20px;
         font-weight: bold;
         transition: background-color 0.18s, color 0.18s;
@@ -662,7 +662,7 @@ h4 {
     font-size: 18px;
     font-weight: bold;
     margin-right: 0;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     cursor: pointer;
     transition: background-color 0.18s, color 0.18s;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
