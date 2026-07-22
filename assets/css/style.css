@@ -729,6 +729,40 @@ footer a:hover {
 
 @media (max-width: 768px) {
 
+.header {
+        position: relative;
+    }
+
+    .hamburger-icon {
+        display: flex;
+    }
+
+    .header-middle,
+    .header-right {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: rgb(160, 239, 150);
+    }
+
+    .menu-toggle-checkbox:checked ~ .header-middle,
+    .menu-toggle-checkbox:checked ~ .header-right {
+        display: flex;
+    }
+
+    .header-about,
+    .header-projects,
+    .header-resume,
+    .header-contact,
+    .language-button,
+    .dark-button,
+    .hire-button {
+        width: 100%;
+    }
+    
 .contact-buttons {
     grid-template-columns: 1fr;
     gap: 0.75rem;
