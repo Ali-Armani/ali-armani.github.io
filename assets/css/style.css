@@ -55,7 +55,6 @@
 .header-middle {
     display: flex;
     flex: 1;
-    flex-wrap: wrap;
     background-color: rgb(160, 239, 150);
     border: none;
     align-items: center;
