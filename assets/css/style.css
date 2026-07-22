@@ -50,6 +50,7 @@
     height: 2.5rem;
     font-size: 1.5rem;
     cursor: pointer;
+    background-color: rgb(160, 239, 150);
 }
 
 .header-middle {
