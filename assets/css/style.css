@@ -83,6 +83,8 @@
     font-weight: 500;
     transition: background-color 0.16s ease;
     cursor: pointer;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .header-about:hover {
