@@ -86,18 +86,9 @@
     padding: 0 1rem;
 }
 
-.header-about:hover {
-    background-color: rgb(130, 184, 123);
-}
-
-.header-projects:hover {
-    background-color: rgb(130, 184, 123);
-}
-
-.header-resume:hover {
-    background-color: rgb(130, 184, 123);
-}
-
+.header-about:hover,
+.header-projects:hover,
+.header-resume:hover,
 .header-contact:hover {
     background-color: rgb(130, 184, 123);
 }
