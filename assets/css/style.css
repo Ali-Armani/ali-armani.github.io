@@ -552,19 +552,19 @@ h4 {
 }
 
 .intro-p {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
 .tagline {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
 .contact-p {
         font-family: 'Times New Roman', Times, serif;
-        font-size: 23px;
+        font-size: 1.4375rem;
         font-weight: bold;
-        margin-top: 25px;
-        margin-bottom: 10px;
+        margin-top: 1.5625rem;
+        margin-bottom: 0.625rem;
         color: rgb(20, 80, 8);
     }
 
