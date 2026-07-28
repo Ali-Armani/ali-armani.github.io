@@ -1,4 +1,9 @@
 
+:root {
+    --primary-color: rgb(160, 239, 150);
+    --primary-hover-color: rgb(130, 184, 123);
+    --text-color: black;
+}
 
 .header {
     display: flex;
