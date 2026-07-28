@@ -64,10 +64,7 @@
     gap: 0.5rem;
 }
 
-.header-about,
-.header-projects,
-.header-resume,
-.header-contact {
+.nav-link {
     display: flex;
     flex-direction: row;
     background-color: rgb(160, 239, 150);
@@ -86,26 +83,11 @@
     padding: 0 1rem;
 }
 
-.header-about:hover,
-.header-projects:hover,
-.header-resume:hover,
-.header-contact:hover {
+.nav-link:hover {
     background-color: rgb(130, 184, 123);
 }
 
-.header-about:active {
-    opacity: 0.7;
-}
-
-.header-projects:active {
-    opacity: 0.7;
-}
-
-.header-resume:active {
-    opacity: 0.7;
-}
-
-.header-contact:active {
+.nav-link:active {
     opacity: 0.7;
 }
 
