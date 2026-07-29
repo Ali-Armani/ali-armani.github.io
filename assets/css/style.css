@@ -416,7 +416,7 @@ h2 {
     margin-right: 0.9375rem;
     margin-top: 2.8125rem;
     margin-bottom: 0.25rem;
-    color: rgb(19, 27, 110);
+    color: var(--heading-color-h2);
 }
 
 h3 {
@@ -426,7 +426,7 @@ h3 {
     margin-right: 0.9375rem;
     margin-top: 1.125rem;
     margin-bottom: 0.25rem;
-    color: rgb(14, 25, 151);
+    color: var(--heading-color-h3);
 }
 
 h4 {
@@ -436,7 +436,7 @@ h4 {
     margin-right: 0.9375rem;
     margin-top: 0.625rem;
     margin-bottom: 0.25rem;
-    color: rgb(43, 55, 193);
+    color: var(--heading-color-h4);
 }
 
 .intro-p {
@@ -529,17 +529,18 @@ footer {
     margin-right: auto;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 0.875rem;
-    color: rgb(158, 157, 157);
+    border-top: 1px solid var(--footer-border-color);
+    color: var(--footer-text-color);
 }
 
 footer a {
-    color: rgb(153, 152, 152);
+    color: var(--footer-link-color);
     text-decoration: none;
     font-weight: bold;
 }
 
 footer a:hover {
-    color: rgb(62, 61, 61);
+    color: var(--footer-link-hover-color);
 }
 
 
