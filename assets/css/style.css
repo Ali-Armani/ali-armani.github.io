@@ -141,15 +141,7 @@
     background-color: rgb(130, 184, 123);
 }
 
-.language-button:active {
-    opacity: 0.7;
-}
-
-.dark-button:active {
-    opacity: 0.7;
-}
-
-.hire-button:active {
+.header-button:active {
     opacity: 0.7;
 }
 
