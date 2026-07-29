@@ -22,18 +22,18 @@
 .header {
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 3.125rem;
     justify-content: space-between;
     background-color: var(--primary-color);
 }
 
 .header-left {
     display: flex;
-    flex: 0 1 200px;
+    flex: 0 1 12.5rem;
     flex-direction: column;
     background-color: var(--header-bg-color);
     border: none;
-    min-width: 120px;
+    min-width: 7.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -112,7 +112,7 @@
 
 .header-right {
     display: flex;
-    width: 325px;
+    width: 20.3125rem;
     align-items: center;
     justify-content: center;
     border: none;
@@ -124,18 +124,18 @@
 .header-button {
     display: flex;
     flex-direction: row;
-    margin-right: 10px;
-    margin-left: 10px;
-    height: 50px;
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
+    height: 3.125rem;
     align-items: center;
     justify-content: center;
-    width: 90px;
+    width: 5.625rem;
     background-color: rgb(160, 239, 150);
     color: var(--text-color);
     border: none;
-    border-radius: 16px;
+    border-radius: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 500;
     transition: background-color 0.16s ease;
     cursor: pointer;
