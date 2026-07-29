@@ -440,130 +440,67 @@ h4 {
         color: rgb(20, 80, 8);
     }
 
-.telegram-button {
-        text-decoration: none;
-        width: 110px;
-        height: 40px;
-        color: white;
-        background-color: rgb(35, 142, 219);
-        border-radius: 20px;
-        font-size: 18px;
-        font-weight: bold;
-        margin-right: 0;
-        margin-left: 0.3125rem;
-        cursor: pointer;
-        transition: background-color 0.18s, color 0.18s;
-        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
-    }
-
-.telegram-button:hover {
-        color: rgb(35, 142, 219);
-        background-color: white;
-    }
-
-.telegram-button:active {
-        opacity: 0.65;
-    }
-
-.whatsapp-button {
-        text-decoration: none;
-        width: 125px;
-        height: 40px;
-        color: white;
-        background-color: rgb(25, 223, 25);
-        border-radius: 20px;
-        font-size: 18px;
-        font-weight: bold;
-        margin-right: 0;
-        margin-left: 0.625rem;
-        cursor: pointer;
-        transition: background-color 0.18s, color 0.18s;
-        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
-    }
-
-.whatsapp-button:hover {
-        background-color: white;
-        color: rgb(25, 223, 25);
-    }
-
-.whatsapp-button:active {
-        opacity: 0.65;
-    }
-
-.email-button {
-        text-decoration: none;
-        width: 90px;
-        height: 40px;
-        color: white;
-        background-color: rgb(165, 18, 194);
-        border-radius: 20px;
-        font-size: 18px;
-        font-weight: bold;
-        margin-right: 0;
-        margin-left: 1.875rem;
-        cursor: pointer;
-        transition: background-color 0.18s, color 0.18s;
-        box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
-    }
-
-.email-button:hover {
-        background-color: white;
-        color: rgb(165, 18, 194);
-    }
-
-.email-button:active {
-        opacity: 0.65;
-    }
-
-.linkedin-button {
-        text-decoration: none;
-        background-color: rgb(13, 13, 126);
-        color: white;
-        height: 40px;
-        width: 125px;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 18px;
-        margin-left: 0.625rem;
-        border-radius: 20px;
-        font-weight: bold;
-        transition: background-color 0.18s, color 0.18s;
-        cursor: pointer;
-        margin-right: 10px;
-    }
-
-.linkedin-button:hover {
-        background-color: white;
-        color: rgb(13, 13, 126);
-    }
-
-.linkedin-button:active {
-        opacity: 0.65;
-    }
-
-.twitter-button {
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
     text-decoration: none;
-    width: 125px;
     height: 40px;
+    padding: 0 1.25rem;
     color: white;
-    background-color: black;
     border-radius: 20px;
-    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
     font-weight: bold;
-    margin-right: 0;
-    margin-left: 1.25rem;
     cursor: pointer;
-    transition: background-color 0.18s, color 0.18s;
+    transition: background-color 0.18s ease, color 0.18s ease;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
-    }
+}
 
-.twitter-button:hover {
+.contact-button:active {
+    opacity: 0.65;
+}
+
+.contact-button--telegram {
+    background-color: rgb(35, 142, 219);
+}
+.contact-button--telegram:hover {
+    background-color: white;
+    color: rgb(35, 142, 219);
+}
+
+.contact-button--whatsapp {
+    background-color: rgb(25, 223, 25);
+}
+.contact-button--whatsapp:hover {
+    background-color: white;
+    color: rgb(25, 223, 25);
+}
+
+.contact-button--email {
+    background-color: rgb(165, 18, 194);
+}
+.contact-button--email:hover {
+    background-color: white;
+    color: rgb(165, 18, 194);
+}
+
+.contact-button--linkedin {
+    background-color: rgb(13, 13, 126);
+}
+.contact-button--linkedin:hover {
+    background-color: white;
+    color: rgb(13, 13, 126);
+}
+
+.contact-button--twitter {
+    background-color: black;
+}
+.contact-button--twitter:hover {
     background-color: white;
     color: var(--text-color);
-    }
-
-.twitter-button:active {
-    opacity: 0.65;
-    }
+}
 
 footer {
     display: grid;
@@ -634,11 +571,7 @@ footer a:hover {
     gap: 0.75rem;
 }
 
-.telegram-button,
-.whatsapp-button,
-.email-button,
-.linkedin-button,
-.twitter-button {
+.contact-button {
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
