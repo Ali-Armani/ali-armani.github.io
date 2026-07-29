@@ -107,9 +107,7 @@
     background-color: var(--primary-color);
 }
 
-.language-button,
-.dark-button,
-.hire-button {
+.header-button {
     display: flex;
     flex-direction: row;
     margin-right: 10px;
