@@ -31,7 +31,7 @@
     display: flex;
     flex: 0 1 200px;
     flex-direction: column;
-    background-color: var(--primary-color);
+    background-color: var(--header-bg-color);
     border: none;
     min-width: 120px;
     justify-content: center;
@@ -371,6 +371,8 @@ html {
 
 html,
 body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
     width: 100%;
