@@ -1,8 +1,22 @@
 
 :root {
+    /* Brand */
     --primary-color: rgb(160, 239, 150);
     --primary-hover-color: rgb(130, 184, 123);
+
+    /* Surfaces */
+    --bg-color: white;
+    --header-bg-color: lightgray;
+    --footer-border-color: rgba(0, 0, 0, 0.1);
+
+    /* Text */
     --text-color: black;
+    --heading-color-h2: rgb(19, 27, 110);
+    --heading-color-h3: rgb(14, 25, 151);
+    --heading-color-h4: rgb(43, 55, 193);
+    --footer-text-color: rgb(158, 157, 157);
+    --footer-link-color: rgb(153, 152, 152);
+    --footer-link-hover-color: rgb(62, 61, 61);
 }
 
 .header {
