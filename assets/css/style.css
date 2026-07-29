@@ -10,14 +10,14 @@
     flex-direction: row;
     height: 50px;
     justify-content: space-between;
-    background-color: rgb(160, 239, 150);
+    background-color: var(--primary-color);
 }
 
 .header-left {
     display: flex;
     flex: 0 1 200px;
     flex-direction: column;
-    background-color: rgb(160, 239, 150);
+    background-color: var(--primary-color);
     border: none;
     min-width: 120px;
     justify-content: center;
@@ -55,13 +55,13 @@
     height: 2.5rem;
     font-size: 1.5rem;
     cursor: pointer;
-    background-color: rgb(160, 239, 150);
+    background-color: var(--primary-color);
 }
 
 .header-middle {
     display: flex;
     flex: 1;
-    background-color: rgb(160, 239, 150);
+    background-color: var(--primary-color);
     border: none;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@
 .nav-link {
     display: flex;
     flex-direction: row;
-    background-color: rgb(160, 239, 150);
+    background-color: var(--primary-color);
     height: 2.5rem;
     width: 4.6875rem;
     align-items: center;
@@ -104,7 +104,7 @@
     border: none;
     margin-left: 0;
     margin-right: 0;
-    background-color: rgb(160, 239, 150);
+    background-color: var(--primary-color);
 }
 
 .language-button,
