@@ -127,15 +127,7 @@
     cursor: pointer;
 }
 
-.language-button:hover {
-    background-color: rgb(130, 184, 123);
-}
-
-.dark-button:hover {
-    background-color: rgb(130, 184, 123);
-}
-
-.hire-button:hover {
+.header-button:hover {
     background-color: rgb(130, 184, 123);
 }
 
