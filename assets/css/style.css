@@ -573,13 +573,8 @@ footer a:hover {
         display: flex;
     }
 
-    .header-about,
-    .header-projects,
-    .header-resume,
-    .header-contact,
-    .language-button,
-    .dark-button,
-    .hire-button {
+.nav-link
+    .header-button {
         width: 100%;
     }
     
