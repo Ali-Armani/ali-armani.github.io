@@ -45,12 +45,14 @@
 .logo {
   width: 13.125rem;
   height: auto;
+  background-color: var(--primary-color);
 }
 
 .logo img {
   display: block;
   width: 100%;
   height: auto;
+  background-color: var(--primary-color);
 }
 
 /* Desktop Menu */
