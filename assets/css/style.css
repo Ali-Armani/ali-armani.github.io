@@ -400,6 +400,22 @@ html {
 /* ==========================================================================
                        Global Resets & Base Elements
    ========================================================================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    list-style: none;
+}
+
 p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1rem;
