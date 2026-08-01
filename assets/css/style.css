@@ -44,53 +44,6 @@
   height: auto;
 }
 
-.header-button {
-    display: flex;
-    flex-direction: row;
-    margin-right: 0.625rem;
-    margin-left: 0.625rem;
-    height: 3.125rem;
-    align-items: center;
-    justify-content: center;
-    width: 5.625rem;
-    background-color: rgb(160, 239, 150);
-    color: var(--text-color);
-    border: none;
-    border-radius: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.0625rem;
-    font-weight: 500;
-    transition: background-color 0.16s ease;
-    cursor: pointer;
-}
-
-.header-button:hover {
-    background-color: rgb(130, 184, 123);
-}
-
-.header-button:active {
-    opacity: 0.7;
-}
-
-/* ==========================================================================
-                               Hero Section
-   ========================================================================== */
-#hero {
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-}
-
-.hero-photo {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .about-div {
     display: grid;
     grid-template-columns: 1fr;
