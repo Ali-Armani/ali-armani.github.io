@@ -44,48 +44,6 @@
   height: auto;
 }
 
-.menu-toggle-checkbox {
-    display: none;
-}
-
-.hamburger-icon {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-    background-color: var(--primary-color);
-}
-
-.nav-link {
-    display: flex;
-    flex-direction: row;
-    background-color: var(--primary-color);
-    height: 2.5rem;
-    width: 4.6875rem;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-color);
-    border: none;
-    border-radius: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.0625rem;
-    font-weight: 500;
-    transition: background-color 0.16s ease;
-    cursor: pointer;
-    padding: 0 1rem;
-}
-
-.nav-link:hover {
-    background-color: rgb(130, 184, 123);
-}
-
-.nav-link:active {
-    opacity: 0.7;
-}
-
 .header-button {
     display: flex;
     flex-direction: row;
