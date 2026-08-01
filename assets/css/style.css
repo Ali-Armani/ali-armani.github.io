@@ -181,6 +181,41 @@ section {
 }
 
 /* ==========================================================================
+                               Hamburger Menu
+   ========================================================================== */
+
+.hamburger {
+    position: fixed;
+    top: 2.5rem;
+    right: 1.25rem;
+    z-index: 10;
+    cursor: pointer;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: none;
+    border: none;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    width: 1.25rem;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+}
+
+.hamburger-middle {
+    transform: translateY(-0.4rem);
+}
+
+.hamburger-bottom {
+    transform: translateY(-0.8rem);
+}
+
+/* ==========================================================================
                                       About
    ========================================================================== */
 
