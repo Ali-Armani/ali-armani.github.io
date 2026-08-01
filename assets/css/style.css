@@ -265,6 +265,7 @@ p {
     top: 0;
     left: 0;
     background: rgb(255, 255, 255);
+    transition: all 0.5s;
 }
 
 .hamburger-middle {
