@@ -661,6 +661,12 @@ footer a:hover {
         display: flex;
     }
 
+.desktop-main-menu {
+  display: none;
+  }
+}
+
+
 .nav-link
     .header-button {
         width: 100%;
