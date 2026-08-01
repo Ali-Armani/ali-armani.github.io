@@ -25,13 +25,6 @@
 /* ==========================================================================
                                Header & Navigation
    ========================================================================== */
-.header {
-    display: flex;
-    flex-direction: row;
-    height: 3.125rem;
-    justify-content: space-between;
-    background-color: var(--primary-color);
-}
 
 .logo {
   width: 13.125rem;
