@@ -57,7 +57,8 @@
 
 /* Desktop Menu */
 .desktop-main-menu {
-    margin-right: 8rem;
+    margin-right: 5rem;
+    font-size: 1.15rem;
 }
 
 .desktop-main-menu ul {
@@ -67,7 +68,8 @@
 .desktop-main-menu ul li {
     position: relative;
     margin-right: 1.25rem;
-    padding-bottom: 0.125em;
+    padding-bottom: 0.125rem;
+    margin-right: 2.5rem;
 }
 
 /* Menu item bottom border */
