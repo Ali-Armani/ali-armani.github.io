@@ -90,6 +90,20 @@
     transition-duration: 0.4s;
 }
 
+.profile-photo-wrapper {
+    display: flex;
+    justify-content: center;
+    transform: translateX(-2.5rem);
+}
+
+.profile-photo {
+    display: block;
+    width: 10.5rem;
+    height: 10.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 /* ==========================================================================
                                Sections
    ========================================================================== */
