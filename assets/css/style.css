@@ -96,6 +96,7 @@
 section {
     position: relative;
     height: 100vh;
+    height: 100dvh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
