@@ -475,38 +475,6 @@ p {
         max-width: 40.125rem;
     }
 
-/* Header Layout */
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.625rem;
-    margin-left: 0.9375rem;
-    margin-right: 0.9375rem;
-    margin-top: 2.8125rem;
-    margin-bottom: 0.25rem;
-    color: var(--heading-color-h2);
-}
-
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3125rem;
-    margin-left: 1.5625rem;
-    margin-right: 0.9375rem;
-    margin-top: 1.125rem;
-    margin-bottom: 0.25rem;
-    color: var(--heading-color-h3);
-}
-
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.0625rem;
-    margin-left: 2.1875rem;
-    margin-right: 0.9375rem;
-    margin-top: 0.625rem;
-    margin-bottom: 0.25rem;
-    color: var(--heading-color-h4);
-}
-
 .intro-p {
         font-size: 1.125rem;
     }
