@@ -691,5 +691,16 @@ footer a:hover {
 
 
 @media (max-width: 480px) {
-    
+    .section-inner {
+        bottom: 4.6875rem;
+        left: 1.25rem;
+    }
+    .section-inner h2 {
+        font-size: 2.5rem;
+    }
+    .logo {
+        width: 9.375rem;
+        margin: auto;
+    }
+    }
 }
