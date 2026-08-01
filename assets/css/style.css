@@ -14,9 +14,10 @@
 
     /* Text */
     --text-color: black;
-    --heading-color-h2: rgb(19, 27, 110);
-    --heading-color-h3: rgb(14, 25, 151);
-    --heading-color-h4: rgb(43, 55, 193);
+    --heading-color-h1: rgb(15, 50, 15);
+    --heading-color-h2: rgb(15, 80, 20);
+    --heading-color-h3: rgb(15, 110, 25);
+    --heading-color-h4: rgb(15, 140, 30);
     --footer-text-color: rgb(158, 157, 157);
     --footer-link-color: rgb(153, 152, 152);
     --footer-link-hover-color: rgb(62, 61, 61);
