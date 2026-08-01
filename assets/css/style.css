@@ -601,7 +601,36 @@ footer a:hover {
     color: var(--footer-link-hover-color);
 }
 
+/* ==========================================================================
+                               Key Frames
+   ========================================================================== */
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(140px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeBounce {
+    0%,
+    17%,
+    50%,
+    67%,
+    100% {
+        opacity: 0;
+        transform: translateY(-1.25rem);
+    }
+    34% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 /* ==========================================================================
                                    Responsive
