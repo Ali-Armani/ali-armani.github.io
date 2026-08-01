@@ -641,37 +641,11 @@ footer a:hover {
         position: relative;
     }
 
-    .hamburger-icon {
-        display: flex;
-    }
-
-    .header-middle,
-    .header-right {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        flex-direction: column;
-        background-color: rgb(160, 239, 150);
-    }
-
-    .menu-toggle-checkbox:checked ~ .header-middle,
-    .menu-toggle-checkbox:checked ~ .header-right {
-        display: flex;
-    }
-
 .desktop-main-menu {
   display: none;
   }
 }
 
-
-.nav-link
-    .header-button {
-        width: 100%;
-    }
-    
 .contact-buttons {
     grid-template-columns: 1fr;
     gap: 0.75rem;
