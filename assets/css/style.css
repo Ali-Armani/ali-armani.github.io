@@ -275,6 +275,23 @@ p {
     transform: translateY(-0.8rem);
 }
 
+/* Transition Hamburger to X when open */
+.open {
+    transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(0.4rem) translateX(0.4rem);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(0.4rem) translateX(-0.4rem);
+}
+
 /* ==========================================================================
                                       About
    ========================================================================== */
