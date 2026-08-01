@@ -88,6 +88,48 @@
     transition-duration: 0.4s;
 }
 
+/* ==========================================================================
+                               Sections
+   ========================================================================== */
+section {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-inner {
+    position: absolute;
+    bottom: 12.5rem;
+    left: 9.375rem;
+    max-width: 35rem;
+}
+
+.section-inner h2 {
+    margin-bottom: 0;
+    padding-bottom: 0.9rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    animation: fadeInUp 0.5s ease-in-out;
+    color: var(--heading-color-h4);
+}
+
+.section-inner h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-bottom: 1.2rem;
+    margin-top: 0.5rem;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+    color: var(--heading-color-h3);
+}
+
+.section-inner a {
+    animation: fadeInUp 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+}
+
 .about-div {
     display: grid;
     grid-template-columns: 1fr;
