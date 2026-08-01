@@ -130,6 +130,11 @@ section {
     animation-fill-mode: both;
 }
 
+/* Background Images */
+.section-a {
+    background-image: url(../images/section-a.png);
+}
+
 .about-div {
     display: grid;
     grid-template-columns: 1fr;
