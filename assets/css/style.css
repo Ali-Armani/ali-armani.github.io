@@ -260,20 +260,6 @@ html {
 /* ==========================================================================
                        Global Resets & Base Elements
    ========================================================================== */
-html,
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-}
-
-body {
-    padding-top: 3.25rem;
-}
-
 p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1rem;
@@ -286,19 +272,6 @@ p {
     }
 
 /* Header Layout */
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: lightgray;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
