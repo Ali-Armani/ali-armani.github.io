@@ -683,8 +683,6 @@ footer a:hover {
 .soft-skills-list {
     grid-template-columns: 1fr;
 }
-    
-}
 
 
 @media (max-width: 480px) {
@@ -700,4 +698,3 @@ footer a:hover {
         margin: auto;
     }
     }
-}
