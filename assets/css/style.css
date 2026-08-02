@@ -175,7 +175,14 @@ section {
    ========================================================================== */
 
 .section-a,
-.section-b {
+.section-b,
+.section-c,
+.section-d,
+.section-e,
+.section-f,
+.section-g,
+.section-h,
+.section-i {
     background: linear-gradient(
         to left,
         rgb(117, 193, 128) 0%,
