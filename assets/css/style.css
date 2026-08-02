@@ -324,16 +324,6 @@ p {
 /* ==========================================================================
                     Shared Section Components (title / text)
    ========================================================================== */
-.section-title {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: clamp(1.5rem, 4vw + 1rem, 2rem);
-    font-weight: 700;
-    margin-top: 3.75rem;
-}
 
 .completed-certif-title {
     display: flex;
@@ -439,17 +429,6 @@ p {
     font-size: 1.1875rem;
     font-weight: 500;
     padding: 0.625rem 0;
-}
-
-.section-text {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 700px;
-    margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25rem;
-    font-weight: 500;
-    padding: 1.5rem 1rem;
 }
 
 /* ==========================================================================
