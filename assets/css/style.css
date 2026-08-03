@@ -346,6 +346,11 @@ p {
     display: none;
 }
 
+/* Bring Menu from Right */
+.show-menu {
+    transform: translateX(0);
+}
+
 .mobile-main-menu {
     position: fixed;
     top: 0;
