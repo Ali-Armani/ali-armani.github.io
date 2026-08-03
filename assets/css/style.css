@@ -338,6 +338,21 @@ p {
     z-index: 3;
 }
 
+.mobile-main-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    z-index: 4;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: transform 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
 /* ==========================================================================
                                Skills and Expertise
    ========================================================================== */
