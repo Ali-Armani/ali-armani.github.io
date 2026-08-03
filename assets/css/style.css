@@ -709,7 +709,7 @@ footer a:hover {
    ========================================================================== */
 @media (max-width: 768px) {
 
-.header {
+.main-header {
         position: relative;
     }
 
