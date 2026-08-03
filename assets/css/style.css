@@ -338,6 +338,10 @@ p {
     z-index: 3;
 }
 
+.stop-scrolling {
+    overflow: hidden;
+}
+
 .mobile-main-menu {
     position: fixed;
     top: 0;
