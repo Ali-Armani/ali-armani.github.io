@@ -162,36 +162,29 @@ section {
     text-align: center;
     width: 100%;
     margin-top: 0;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
     padding-top: 0;
     font-weight: 700;
     font-size: 2.55rem;
 }
 
+.section-subtitle {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    padding-top: 0;
+}
+
 .section-text {
     text-align: left;
     max-width: 55%;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 0 auto;
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 1.6;
     text-indent: 0.9rem;
-}
-
-/* Background Images */
-.section-a,
-.section-b,
-.section-c,
-.section-d,
-.section-e,
-.section-f,
-.section-g {
-    background: linear-gradient(
-        to left,
-        rgb(117, 193, 128) 0%,
-        rgb(255, 255, 255) 100%
-    );
 }
 
 .btn {
@@ -252,6 +245,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    background: linear-gradient(
+        to left,
+        rgb(117, 193, 128) 0%,
+        rgb(255, 255, 255) 100%
+    );
 }
 
 a {
@@ -384,6 +382,14 @@ ul {
 }
 
 /* ==========================================================================
+                               Containers
+   ========================================================================== */
+.container {
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+/* ==========================================================================
                                Certificaions
    ========================================================================== */
 
@@ -395,7 +401,7 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4375rem;
     font-weight: 500;
-    margin-top: 3.4375rem;
+    top: 0;
 }
 
 .certification-row {
@@ -433,6 +439,18 @@ ul {
     font-weight: 400;
     font-size: 1rem;
     cursor: pointer;
+}
+
+/* ==========================================================================
+                               Projects
+   ========================================================================== */
+
+.project-link {
+    text-align: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0.3rem;
+    padding-top: 0;
 }
 
 /* ==========================================================================
