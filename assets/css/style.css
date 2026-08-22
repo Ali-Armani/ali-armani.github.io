@@ -445,12 +445,70 @@ ul {
                                Projects
    ========================================================================== */
 
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 3.75rem 1.25rem;
+}
+
+.project-info {
+    flex: 1;
+    max-width: 35rem;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
 .project-link {
     text-align: center;
     width: 100%;
-    margin-top: 0;
+    margin-top: 2rem;
     margin-bottom: 3.5rem;
     padding-top: 0;
+}
+
+.project-link a {
+    display: inline-block;
+    padding: 0.8rem 1.8rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.project-link a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.horizontal-screenshot-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.horizontal-screenshot-container img {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0.875rem 2.5rem rgba(0, 0, 0, 0.15);
+}
+
+.vertical-screenshot-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.vertical-screenshot-container img {
+    width: 100%;
+    max-width: 17rem;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 0.875rem 2.5rem rgba(0, 0, 0, 0.15);
 }
 
 /* ==========================================================================
