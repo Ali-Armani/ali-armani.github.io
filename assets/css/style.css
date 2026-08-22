@@ -491,10 +491,16 @@ ul {
 
 .horizontal-screenshot-container img {
     width: 100%;
-    max-width: 30rem;
+    max-width: 29rem;
     height: auto;
     border-radius: 1rem;
-    box-shadow: 0 0.875rem 2.5rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, max-width 0.25s ease;
+}
+
+.horizontal-screenshot-container img:hover {
+    transform: translateY(-0.4rem);
+    box-shadow: 0 0.75rem 1.875rem rgba(0, 0, 0, 0.2);
+    max-width: 31rem;
 }
 
 .vertical-screenshot-container {
@@ -508,7 +514,13 @@ ul {
     max-width: 17rem;
     height: auto;
     border-radius: 1rem;
-    box-shadow: 0 0.875rem 2.5rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, max-width 0.25s ease;
+}
+
+.vertical-screenshot-container img:hover {
+    transform: translateY(-0.4rem);
+    box-shadow: 0 0.75rem 1.875rem rgba(0, 0, 0, 0.2);
+    max-width: 17.4rem;
 }
 
 /* ==========================================================================
