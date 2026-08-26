@@ -533,13 +533,11 @@ ul {
     max-width: 17rem;
     height: auto;
     border-radius: 1rem;
-    transition: transform 0.25s ease, box-shadow 0.25s ease, max-width 0.25s ease;
+    transition: box-shadow 0.25s ease;
 }
 
 .vertical-screenshot-container img:hover {
-    transform: translateY(-0.4rem);
     box-shadow: 0 0.75rem 1.875rem rgba(0, 0, 0, 0.2);
-    max-width: 17.4rem;
 }
 
 /* ==========================================================================
