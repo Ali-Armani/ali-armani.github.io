@@ -491,16 +491,15 @@ ul {
 
 .horizontal-screenshot-container img {
     width: 100%;
-    max-width: 29rem;
+    max-width: 20rem;
     height: auto;
     border-radius: 1rem;
-    transition: transform 0.25s ease, box-shadow 0.25s ease, max-width 0.25s ease;
+    transition: box-shadow 0.25s ease, max-width 0.6s ease;
 }
 
 .horizontal-screenshot-container img:hover {
-    transform: translateY(-0.4rem);
     box-shadow: 0 0.75rem 1.875rem rgba(0, 0, 0, 0.2);
-    max-width: 31rem;
+    max-width: 35rem;
 }
 
 .todo-screenshot-container {
