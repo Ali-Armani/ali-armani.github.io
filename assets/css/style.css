@@ -584,6 +584,78 @@ ul {
 }
 
 /* ==========================================================================
+                               Footer
+   ========================================================================== */
+
+.main-footer {
+    position: relative;
+    height: auto;
+    text-align: center;
+    padding: 3rem 1.25rem 2rem;
+    margin-top: 4rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--footer-link-color);
+    transition: color 0.3s;
+}
+
+.footer-icon-link:hover {
+    color: var(--primary-color);
+}
+
+.footer-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: currentColor;
+}
+
+.footer-copyright {
+    font-size: 0.875rem;
+    color: var(--footer-text-color);
+    max-width: none;
+    margin: 0;
+}
+
+.back-to-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1.2rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: var(--primary-color);
+}
+
+.back-to-top-icon {
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: var(--primary-color);
+    transition: fill 0.3s;
+}
+
+.back-to-top:hover .back-to-top-icon {
+    fill: white;
+}
+
+/* ==========================================================================
                                Key Frames
    ========================================================================== */
 
