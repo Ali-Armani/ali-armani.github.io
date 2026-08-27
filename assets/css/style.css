@@ -612,7 +612,7 @@ ul {
 }
 
 .footer-icon-link:hover {
-    color: var(--primary-color);
+    color: rgb(0, 0, 0);
 }
 
 .footer-icon {
