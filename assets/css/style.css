@@ -794,7 +794,7 @@ ul {
         margin: auto;
     }
     .mobile-main-menu {
-        width: 100%;
+        width: 55%;
     }
     .certification-row {
         grid-template-columns: 1fr;
