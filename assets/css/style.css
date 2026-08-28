@@ -799,4 +799,13 @@ ul {
     .certification-row {
         grid-template-columns: 1fr;
     }
+    .project-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        padding: 2.5rem 1.25rem;
+    }
+    .project-info {
+        max-width: 100%;
+    }
 }
