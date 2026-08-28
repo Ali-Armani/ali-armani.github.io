@@ -703,7 +703,7 @@ ul {
 
 .back-to-top {
     position: absolute;
-    top: 50%;
+    top: 0;
     left: calc(50% - 5rem);
     transform: translate(-50%, -50%);
     display: inline-flex;
