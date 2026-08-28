@@ -666,7 +666,6 @@ ul {
 .footer-bottom-row {
     display: flex;
     align-items: center;
-    gap: 3rem;
 }
 
 .footer-icon-link {
