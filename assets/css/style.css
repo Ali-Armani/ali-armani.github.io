@@ -705,6 +705,7 @@ ul {
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
+    left: 18%;
     border: 2px solid var(--primary-color);
     border-radius: 50%;
     transition: 0.3s;
