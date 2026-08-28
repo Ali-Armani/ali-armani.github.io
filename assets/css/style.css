@@ -790,4 +790,7 @@ ul {
         width: 9.375rem;
         margin: auto;
     }
+    .mobile-main-menu {
+        width: 100%;
+    }
 }
