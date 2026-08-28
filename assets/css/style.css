@@ -815,4 +815,6 @@ ul {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
+    .container {
+    margin-top: 5.5rem;
 }
