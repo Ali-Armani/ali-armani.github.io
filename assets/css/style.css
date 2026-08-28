@@ -814,7 +814,7 @@ ul {
         margin-top: 6rem;
     }
     .mobile-main-menu {
-        width: 75%;
+        width: 50%;
     }
 }
 
@@ -828,6 +828,6 @@ ul {
         text-align: center;
     }
     .mobile-main-menu {
-        width: 100%;
+        width: 50%;
     }
 }
