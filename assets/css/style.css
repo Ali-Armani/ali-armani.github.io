@@ -433,6 +433,50 @@ ul {
     text-align: center;
 }
 
+/*
+    Languages:
+*/
+
+.language-subtitle {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4375rem;
+    font-weight: 500;
+    top: 0;
+}
+
+.language-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-position: inside;
+    padding: 0;
+    max-width: 700px;
+    margin: 1rem auto 0;
+    gap: 1rem 3rem;
+}
+
+.language-unit {
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+}
+
+.language-logo {
+    width: 100%;
+    max-width: 10rem;
+    height: auto;
+    border-radius: 20%;
+}
+
+.language-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
 /* ==========================================================================
                                Projects
    ========================================================================== */
