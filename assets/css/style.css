@@ -640,8 +640,12 @@ ul {
 .main-footer {
     position: relative;
     height: auto;
-    text-align: center;
-    padding: 3rem 1.25rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 1.875rem;
     margin-top: 4rem;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -689,7 +693,6 @@ ul {
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
-    margin-top: 1.2rem;
     border: 2px solid var(--primary-color);
     border-radius: 50%;
     transition: 0.3s;
