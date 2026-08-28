@@ -626,6 +626,11 @@ ul {
     color: var(--footer-text-color);
     max-width: none;
     margin: 0;
+    transition: color 0.3s ease;
+}
+
+.footer-copyright:hover {
+    color: rgb(0, 0, 0);
 }
 
 .back-to-top {
