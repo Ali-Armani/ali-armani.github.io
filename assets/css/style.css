@@ -797,7 +797,7 @@ ul {
         width: 55%;
     }
     .certification-row {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .project-container {
         flex-direction: column;
