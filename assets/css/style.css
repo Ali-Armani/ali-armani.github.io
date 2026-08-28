@@ -768,15 +768,23 @@ ul {
     .mobile-only {
         display: block;
     }
+    .section-inner {
+        left: 3rem;
+        bottom: 8rem;
+    }
 }
 
 @media (max-width: 600px) {
     .section-inner {
-        bottom: 4.6875rem;
         left: 1.25rem;
+        bottom: 4.6875rem;
+        max-width: calc(100% - 2.5rem);
+    }
+    .section-inner h1 {
+        font-size: 1.8rem;
     }
     .section-inner h2 {
-        font-size: 2.5rem;
+        font-size: 1.1rem;
     }
     .logo {
         width: 9.375rem;
