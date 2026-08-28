@@ -820,7 +820,7 @@ ul {
 
 @media (max-width: 400px) {
     .certification-row {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .footer-bottom-row {
         flex-direction: column;
