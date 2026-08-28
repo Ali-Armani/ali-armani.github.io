@@ -447,9 +447,9 @@ ul {
 }
 
 .language-row {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    list-style-position: inside;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 0;
     max-width: 700px;
     margin: 1rem auto 0;
