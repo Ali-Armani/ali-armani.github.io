@@ -811,4 +811,8 @@ ul {
     .section-text {
     max-width: 90%;
     }
+    .footer-bottom-row {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
 }
