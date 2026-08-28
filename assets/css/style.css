@@ -772,6 +772,9 @@ ul {
         left: 3rem;
         bottom: 8rem;
     }
+    .certification-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 600px) {
@@ -792,5 +795,8 @@ ul {
     }
     .mobile-main-menu {
         width: 100%;
+    }
+    .certification-row {
+        grid-template-columns: 1fr;
     }
 }
