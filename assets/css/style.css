@@ -395,6 +395,14 @@ ul {
     margin-bottom: 4rem;
 }
 
+.taskflow-intext-link: {
+    transition: color 0.2s ease;
+}
+
+.taskflow-intext-link:hover {
+    color: rgb(24, 17, 219);
+}
+
 /* ==========================================================================
                                Certificaions
    ========================================================================== */
