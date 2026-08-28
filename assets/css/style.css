@@ -704,8 +704,8 @@ ul {
 .back-to-top {
     position: absolute;
     top: 50%;
-    left: calc(50% - 5rem)
-    trandform: translate(-50%, -50%);
+    left: calc(50% - 5rem);
+    transform: translate(-50%, -50%);
     display: inline-flex;
     align-items: center;
     justify-content: center;
