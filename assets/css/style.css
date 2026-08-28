@@ -770,4 +770,8 @@ ul {
         width: 9.375rem;
         margin: auto;
     }
+    .main-footer {
+    flex-direction: column;
+    text-align: center;
+    }
 }
