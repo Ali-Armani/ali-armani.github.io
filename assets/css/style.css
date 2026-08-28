@@ -808,4 +808,7 @@ ul {
     .project-info {
         max-width: 100%;
     }
+    .section-text {
+    max-width: 90%;
+    }
 }
