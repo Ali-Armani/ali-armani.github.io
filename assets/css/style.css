@@ -861,6 +861,12 @@ ul {
     .mobile-only {
         display: block;
     }
+    .hamburger {
+        display: block;
+    }
+    .header-right {
+        margin-right: 3rem;
+    }
     .section-inner {
         left: 3rem;
         bottom: 8rem;
