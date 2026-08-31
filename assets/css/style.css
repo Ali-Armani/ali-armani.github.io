@@ -108,6 +108,7 @@
     display: flex;
     align-items: center;
     gap: 2.5rem;
+    margin-right: 2rem;
 }
 
 .header-controls {
