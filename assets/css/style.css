@@ -454,7 +454,7 @@ ul {
     align-items: center;
     justify-content: center;
     margin-left: 0.35rem;
-    color: var(--primary-color);
+    color: rgb(0, 0, 0);
     transition: color 0.3s;
 }
 
