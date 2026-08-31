@@ -60,6 +60,12 @@ function setLanguage(lang) {
     });
 }
 
+const langToggle = document.getElementById("lang-toggle");
+
+langToggle.addEventListener("click", () => {
+    setLanguage("de");
+});
+
 localStorage.setItem("language", "de");
 
 const btn = document.getElementById('menu-button');
