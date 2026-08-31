@@ -448,6 +448,27 @@ ul {
     text-align: center;
 }
 
+.certif-link,
+.cert-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.35rem;
+    color: var(--primary-color);
+    transition: color 0.3s;
+}
+
+.certif-link:hover,
+.cert-link:hover {
+    color: rgb(24, 17, 219);
+}
+
+.cert-icon {
+    width: 0.9rem;
+    height: 0.9rem;
+    vertical-align: middle;
+}
+
 /*
     Soft Skills:
 */
