@@ -52,6 +52,13 @@ const translations = {
         "contact-email-label": "E-Mail"
     }
 };
+
+function setLanguage(lang) {
+    document.querySelectorAll("[data-i18n]").forEach((element) => {
+        const key = element.dataset.i18n;
+        element.textContent = translations[lang][key];
+    });
+}
         
 const btn = document.getElementById('menu-button');
 const overlay = document.getElementById('overlay');
