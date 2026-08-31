@@ -6,6 +6,7 @@
     /* Brand */
     --primary-color: rgb(117, 193, 128);
     --primary-hover-color: rgb(125, 211, 114);
+    --link-hover-color: rgb(24, 17, 219);
 
     /* Surfaces */
     --bg-color: white;
@@ -20,6 +21,7 @@
     --heading-color-h4: rgb(15, 140, 30);
     --footer-text-color: rgb(158, 157, 157);
     --footer-link-color: rgb(153, 152, 152);
+    
 }
 
 /* ==========================================================================
@@ -400,7 +402,7 @@ ul {
 }
 
 .taskflow-intext-link:hover {
-    color: rgb(24, 17, 219);
+    color: --link-hover-color;
     cursor: pointer;
 }
 
@@ -461,7 +463,7 @@ ul {
 
 .certif-link:hover,
 .cert-link:hover {
-    color: rgb(24, 17, 219);
+    color: --link-hover-color;
 }
 
 .cert-icon {
