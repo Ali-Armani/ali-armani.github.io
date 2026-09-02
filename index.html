@@ -25,10 +25,69 @@
     <meta name="twitter:image" content="https://ali-armani.github.io/assets/images/profile.jpg">
     
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
-    <!-- Linking the external stylesheet from the assets folder -->
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/script.js" defer></script>
     <title>Ali Armani | Web Developer Portfolio</title>
+
+    <!-- Structured Data: Person + WebSite -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://ali-armani.github.io/#person",
+          "name": "Ali Armani",
+          "url": "https://ali-armani.github.io/",
+          "image": "https://ali-armani.github.io/assets/images/profile.jpg",
+          "jobTitle": "Web Developer",
+          "description": "Aspiring Full-Stack Developer learning JavaScript, React and Node.js. Open to freelance and remote opportunities.",
+          "email": "mailto:armani.ali@proton.me",
+          "knowsAbout": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "Figma",
+            "Front-End Development"
+          ],
+          "knowsLanguage": [
+            { "@type": "Language", "name": "English", "alternateName": "en" },
+            { "@type": "Language", "name": "German", "alternateName": "de" }
+          ],
+          "sameAs": [
+            "https://linkedin.com/in/aliarmani",
+            "https://github.com/Ali-Armani",
+            "https://t.me/ali_armani_dev"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ali-armani.github.io/#website",
+          "url": "https://ali-armani.github.io/",
+          "name": "Ali Armani | Web Developer Portfolio",
+          "description": "Personal portfolio of Ali Armani, aspiring full-stack developer.",
+          "inLanguage": "en",
+          "publisher": {
+            "@id": "https://ali-armani.github.io/#person"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://ali-armani.github.io/#webpage",
+          "url": "https://ali-armani.github.io/",
+          "name": "Ali Armani | Web Developer Portfolio",
+          "isPartOf": {
+            "@id": "https://ali-armani.github.io/#website"
+          },
+          "about": {
+            "@id": "https://ali-armani.github.io/#person"
+          },
+          "inLanguage": "en"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
     <div id="overlay"></div>
