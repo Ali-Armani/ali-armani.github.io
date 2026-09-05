@@ -26,7 +26,7 @@ const translations = {
         "lang-english": "English (B2)",
         "lang-german": "German (A2)",
 
-        "project0-title": "Projects:",
+        "projects-title": "Projects:",
 
         "project-weather-forecast-title": "Wettervorhersage-App",
         "project-weather-forecast-desc": "Eine <strong>Wettervorhersage</strong>-Webanwendung, die Echtzeitdaten über ein eigenes <strong>serverloses Backend</strong> (Vercel-API-Route) abruft und so den Wetter-API-Schlüssel serverseitig schützt, anstatt ihn im Browser offenzulegen. Entwickelt mit <strong>HTML, CSS und JavaScript</strong>, unter Verwendung von <strong>async/await</strong> und der Fetch-API, um Temperatur, Luftfeuchtigkeit, Windgeschwindigkeit und ein dynamisches Wettersymbol je nach aktuellen Bedingungen anzuzeigen, inklusive Fehlerbehandlung bei ungültigen Städtenamen.",
