@@ -28,7 +28,7 @@ const translations = {
 
         "projects-title": "Projects:",
 
-        "project-weather-forecast-title": "Wettervorhersage-App",
+        "project-weather-forecast-title": "Weather Forecast App",
         "project-weather-forecast-desc": "A <strong>weather forecast</strong> web app that fetches real-time data through a custom <strong>serverless backend</strong> (Vercel API route), keeping the weather API key secure on the server instead of exposing it in the browser. Built with <strong>HTML, CSS, and JavaScript</strong>, using <strong>async/await</strong> and the Fetch API to retrieve and display temperature, humidity, wind speed, and a dynamic weather icon based on current conditions, with proper error handling for invalid city names.", 
 
         "project-4kids-title": "4Kids Store Website:",
