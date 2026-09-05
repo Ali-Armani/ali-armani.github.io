@@ -26,7 +26,10 @@ const translations = {
         "lang-english": "English (B2)",
         "lang-german": "German (A2)",
 
-        "projects-title": "Projects:",
+        "project0-title": "Projects:",
+
+        "project0-title": "Wettervorhersage-App",
+        "project0-desc": "Eine <strong>Wettervorhersage</strong>-Webanwendung, die Echtzeitdaten über ein eigenes <strong>serverloses Backend</strong> (Vercel-API-Route) abruft und so den Wetter-API-Schlüssel serverseitig schützt, anstatt ihn im Browser offenzulegen. Entwickelt mit <strong>HTML, CSS und JavaScript</strong>, unter Verwendung von <strong>async/await</strong> und der Fetch-API, um Temperatur, Luftfeuchtigkeit, Windgeschwindigkeit und ein dynamisches Wettersymbol je nach aktuellen Bedingungen anzuzeigen, inklusive Fehlerbehandlung bei ungültigen Städtenamen.",
 
         "project-4kids-title": "4Kids Store Website:",
         "4kids-project-desc": "Designed and developed a <strong>responsive</strong> front-end website for 4KIDS, a real doll and hair accessories store. The project transforms a traditional local business into a modern digital experience with a focus on brand identity, product presentation, <strong>user-friendly</strong> design, and maintainable code structure. Built <strong>from scratch</strong> using HTML, CSS, and JavaScript with responsive design and organized project architecture.",
