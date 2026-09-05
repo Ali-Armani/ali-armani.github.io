@@ -28,9 +28,6 @@ const translations = {
 
         "projects-title": "Projects:",
 
-        "project-weather-forecast-title": "Wettervorhersage-App",
-        "project-weather-forecast-desc": "Eine <strong>Wettervorhersage</strong>-Webanwendung, die Echtzeitdaten über ein eigenes <strong>serverloses Backend</strong> (Vercel-API-Route) abruft und so den Wetter-API-Schlüssel serverseitig schützt, anstatt ihn im Browser offenzulegen. Entwickelt mit <strong>HTML, CSS und JavaScript</strong>, unter Verwendung von <strong>async/await</strong> und der Fetch-API, um Temperatur, Luftfeuchtigkeit, Windgeschwindigkeit und ein dynamisches Wettersymbol je nach aktuellen Bedingungen anzuzeigen, inklusive Fehlerbehandlung bei ungültigen Städtenamen.",
-
         "project-4kids-title": "4Kids Store Website:",
         "project-4kids-desc": "Designed and developed a <strong>responsive</strong> front-end website for 4KIDS, a real doll and hair accessories store. The project transforms a traditional local business into a modern digital experience with a focus on brand identity, product presentation, <strong>user-friendly</strong> design, and maintainable code structure. Built <strong>from scratch</strong> using HTML, CSS, and JavaScript with responsive design and organized project architecture.",
 
@@ -83,6 +80,9 @@ const translations = {
         "lang-german": "Deutsch (A2)",
 
         "projects-title": "Projekte:",
+
+        "project-weather-forecast-title": "Wettervorhersage-App",
+        "project-weather-forecast-desc": "Eine <strong>Wettervorhersage</strong>-Webanwendung, die Echtzeitdaten über ein eigenes <strong>serverloses Backend</strong> (Vercel-API-Route) abruft und so den Wetter-API-Schlüssel serverseitig schützt, anstatt ihn im Browser offenzulegen. Entwickelt mit <strong>HTML, CSS und JavaScript</strong>, unter Verwendung von <strong>async/await</strong> und der Fetch-API, um Temperatur, Luftfeuchtigkeit, Windgeschwindigkeit und ein dynamisches Wettersymbol je nach aktuellen Bedingungen anzuzeigen, inklusive Fehlerbehandlung bei ungültigen Städtenamen.",
 
         "project-4kids-title": "4Kids Store Website:",
         "4kids-project-desc": "Entwicklung einer <strong>responsiven</strong> Frontend-Website für 4KIDS, ein echtes Geschäft für Puppen und Haaraccessoires. Das Projekt verwandelt ein traditionelles lokales Unternehmen in ein modernes digitales Erlebnis mit Fokus auf Markenidentität, Produktpräsentation, <strong>benutzerfreundliches</strong> Design und wartbare Codestruktur. <strong>Von Grund auf</strong> mit HTML, CSS und JavaScript entwickelt, mit responsivem Design und strukturierter Projektarchitektur.",
