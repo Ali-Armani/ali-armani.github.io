@@ -613,6 +613,14 @@ ul {
     color: white;
 }
 
+.weather-screenshot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 18rem;
+    margin: 0 auto;
+}
+
 .horizontal-screenshot-container {
     display: flex;
     flex: 1;
