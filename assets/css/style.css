@@ -6,6 +6,7 @@
     /* Brand */
     --primary-color: rgb(117, 193, 128);
     --primary-hover-color: rgb(125, 211, 114);
+    --link-hover-color: rgb(24, 17, 219);
 
     /* Surfaces */
     --bg-color: white;
@@ -20,6 +21,7 @@
     --heading-color-h4: rgb(15, 140, 30);
     --footer-text-color: rgb(158, 157, 157);
     --footer-link-color: rgb(153, 152, 152);
+    
 }
 
 /* ==========================================================================
@@ -98,6 +100,44 @@
     transform: scaleX(1);
     transform-origin: left center;
     transition-duration: 0.4s;
+}
+
+/* Header Right: Language Toggle & Day/Night */
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-right: 2rem;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.lang-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.75rem;
+    height: 2.25rem;
+    padding: 0 0.75rem;
+    border: 2px solid var(--bg-color);
+    border-radius: 1.5rem;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--bg-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lang-toggle:hover {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
 }
 
 .profile-photo-wrapper {
@@ -396,6 +436,19 @@ ul {
 }
 
 /* ==========================================================================
+                                   About
+   ========================================================================== */
+
+.taskflow-intext-link {
+    transition: color 0.2s ease;
+}
+
+.taskflow-intext-link:hover {
+    color: var(--link-hover-color);
+    cursor: pointer;
+}
+
+/* ==========================================================================
                                Certificaions
    ========================================================================== */
 
@@ -411,9 +464,9 @@ ul {
 }
 
 .certification-row {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    list-style-position: inside;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 0;
     max-width: 700px;
     margin: 1rem auto 0;
@@ -423,6 +476,7 @@ ul {
 .certification-unit {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    width: 8rem;
 }
 
 .certif-logo {
@@ -437,6 +491,40 @@ ul {
     font-weight: 500;
     font-size: 1rem;
     text-align: center;
+}
+
+.certif-link,
+.cert-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.35rem;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s;
+}
+
+.certif-link:hover,
+.cert-link:hover {
+    color: var(--link-hover-color);
+}
+
+.cert-icon {
+    width: 0.9rem;
+    height: 0.9rem;
+    vertical-align: middle;
+}
+
+/*
+    Soft Skills:
+*/
+
+.soft-skills-text {
+    max-width: 45rem;
+    margin: 1rem auto 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.7;
 }
 
 /*
@@ -664,9 +752,11 @@ ul {
 }
 
 .footer-bottom-row {
+    position: relative;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 3rem;
+    width: 100%;
 }
 
 .footer-icon-link {
@@ -700,11 +790,16 @@ ul {
 }
 
 .back-to-top {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 5rem);
+    transform: translate(-50%, -50%);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 2.5rem;
     height: 2.5rem;
+    left: 18%;
     border: 2px solid var(--primary-color);
     border-radius: 50%;
     transition: 0.3s;
@@ -767,6 +862,12 @@ ul {
     .mobile-only {
         display: block;
     }
+    .hamburger {
+        display: block;
+    }
+    .header-right {
+        margin-right: 3rem;
+    }
     .section-inner {
         left: 3rem;
         bottom: 8rem;
@@ -814,13 +915,14 @@ ul {
         margin-top: 6rem;
     }
     .mobile-main-menu {
-        width: 75%;
+        width: 50%;
     }
 }
 
 @media (max-width: 400px) {
     .certification-row {
         grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .footer-bottom-row {
         flex-direction: column;
@@ -829,5 +931,6 @@ ul {
     }
     .mobile-main-menu {
         width: 100%;
+        width: 50%;
     }
 }
