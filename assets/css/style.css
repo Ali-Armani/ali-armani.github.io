@@ -921,6 +921,7 @@ ul {
 
 @media (max-width: 400px) {
     .certification-row {
+        grid-template-columns: 1fr;
         grid-template-columns: 1fr 1fr;
     }
     .footer-bottom-row {
@@ -929,6 +930,7 @@ ul {
         text-align: center;
     }
     .mobile-main-menu {
+        width: 100%;
         width: 50%;
     }
 }
