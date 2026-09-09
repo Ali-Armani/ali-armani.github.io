@@ -37,6 +37,9 @@ const translations = {
         "project-taskflow-title": "To-Do App (TaskFlow)",
         "project-taskflow-desc": "A <strong>fully responsive</strong> to-do list app built with HTML, CSS, and JavaScript, with a focus on <strong>clean UI/UX</strong> and task management that just makes sense. Throughout the build I leaned on solid HTML/CSS/JS fundamentals to debug issues, structure the logic, and make sure everything held up across different devices. I also used AI-assisted development — something I trained specifically through a <strong>prompt engineering</strong> course — to speed up iteration, while still staying fully in control of code quality and design decisions. UI/UX consistency was a <strong>priority at every step</strong>, from the layout down to the small interaction details.",
 
+        "project-vocab-bridge-title": "Vocab Bridge App",
+        "project-vocab-bridge-desc": "A <strong>fully-responsive</strong> bilingual Persian–English vocabulary flashcard app. Features flip-card <strong>animation</strong>, native pronunciation via the <strong>Web Speech API</strong>, <strong>RTL/LTR language switching</strong>, progress tracking with a <strong>mistake-review system</strong>, and <strong>WCAG-conscious accessibility</strong>.",
+        
         "project-rock-title": "Rock Paper Scissors Game",
         "project-rock-desc": "An <strong>interactive</strong> front-end application built with HTML, CSS, and JavaScript. I developed a <strong>responsive</strong> game with a <strong>clean interface, dynamic interactions, and functional game logic</strong>. Through this project, I focused on writing <strong>organized code</strong>, improving <strong>user experience</strong>, and transforming a simple idea into an engaging web application.",
 
@@ -93,6 +96,9 @@ const translations = {
         "project-taskflow-title": "To-Do-App (TaskFlow)",
         "project-taskflow-desc": "Eine <strong>vollständig responsive</strong> To-Do-Listen-App, entwickelt mit HTML, CSS und JavaScript, mit Fokus auf <strong>sauberes UI/UX</strong> und sinnvolles Aufgabenmanagement. Während der Entwicklung nutzte ich solide HTML/CSS/JS-Grundlagen, um Fehler zu beheben, die Logik zu strukturieren und die Funktionalität auf verschiedenen Geräten sicherzustellen. Zudem setzte ich KI-unterstützte Entwicklung ein — eine Fähigkeit, die ich gezielt durch einen <strong>Prompt-Engineering</strong>-Kurs trainiert habe —, um die Iteration zu beschleunigen, während ich die volle Kontrolle über Codequalität und Designentscheidungen behielt. Konsistenz im UI/UX hatte bei jedem Schritt <strong>Priorität</strong>, von Layout bis zu kleinen Interaktionsdetails.",
 
+        "project-vocab-bridge-title": "Vocab-Bridge-App",
+        "project-vocab-bridge-desc" : "Eine <strong>vollständig responsive</strong> zweisprachige Persisch–Englisch-Vokabelkarten-App. Sie bietet eine Flipkarten-<strong>Animation</strong>, native Aussprache über die <strong>Web Speech API</strong>, eine <strong>RTL-/LTR-Sprachumschaltung</strong>, eine Fortschrittsverfolgung mit einem <strong>Fehler-Review-System</strong> sowie eine <strong>WCAG-bewusste Barrierefreiheit</strong>.",
+        
         "project-rock-title": "Schere, Stein, Papier – Spiel",
         "project-rock-desc": "Eine <strong>interaktive</strong> Frontend-Anwendung, entwickelt mit HTML, CSS und JavaScript. Ich habe ein <strong>responsives</strong> Spiel mit <strong>übersichtlicher Oberfläche, dynamischen Interaktionen und funktionaler Spiellogik</strong> entwickelt. Bei diesem Projekt lag mein Fokus auf <strong>strukturiertem Code</strong>, verbesserter <strong>Nutzererfahrung</strong> und der Umsetzung einer einfachen Idee in eine ansprechende Webanwendung.",
 
