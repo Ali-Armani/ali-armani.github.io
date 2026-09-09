@@ -47,7 +47,7 @@ const translations = {
 
         "resume-title": "Resume",
         "resume-highlights-title": "Quick Highlights:",
-        "resume-highlight-1": "4+ front-end projects built from scratch (HTML, CSS, JavaScript)",
+        "resume-highlight-1": "5+ front-end projects built from scratch (HTML, CSS, JavaScript)",
         "resume-highlight-2": "Self-taught developer with certifications in Linux, Python, and ICDL",
         "resume-highlight-3": "Strong communication skills — currently completing a degree in English Language Teaching",
         "resume-highlight-4": "Open to freelance and part-time remote opportunities",
@@ -106,7 +106,7 @@ const translations = {
 
         "resume-title": "Lebenslauf",
         "resume-highlights-title": "Kurzüberblick:",
-        "resume-highlight-1": "4+ Frontend-Projekte von Grund auf entwickelt (HTML, CSS, JavaScript)",
+        "resume-highlight-1": "5+ Frontend-Projekte von Grund auf entwickelt (HTML, CSS, JavaScript)",
         "resume-highlight-2": "Autodidaktischer Entwickler mit Zertifikaten in Linux, Python und ICDL",
         "resume-highlight-3": "Ausgeprägte Kommunikationsfähigkeiten — derzeit Studium im Bereich Englischunterricht",
         "resume-highlight-4": "Offen für freiberufliche und Teilzeit-Remote-Möglichkeiten",
